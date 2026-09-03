@@ -1,0 +1,107 @@
+/* ตั้งค่าพื้นฐานของเว็บไซต์ */
+body {
+    background-color: #FDFBF7;
+    color: #4A4238;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* ตกแต่ง Profile Card */
+.card {
+    background-color: #EFECE6;
+    border: 2px solid #C5B9AC;
+    border-radius: 16px;
+    padding: 30px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* ตกแต่งรูป Profile */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #C5B9AC;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+/* ตกแต่งข้อความและหัวข้อ */
+h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #4A4238;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #4A4238;
+    text-align: left;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.welcome-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+/* ตกแต่งรายการงานอดิเรก */
+.hobby-list {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.hobby-list li {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* เส้นคั่นเนื้อหา */
+.divider {
+    border: 0;
+    border-top: 1px solid #C5B9AC;
+    margin: 15px 0;
+}
+
+/* ตกแต่งปุ่มลิงก์ */
+.button {
+    display: inline-block;
+    background-color: #4A4238;
+    color: #FDFBF7;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s ease;
+}
+
+/* ตกแต่งปุ่มเมื่อเอา Mouse ไปวาง (Hover) */
+.button:hover {
+    background-color: #C5B9AC;
+    color: #4A4238;
+}
